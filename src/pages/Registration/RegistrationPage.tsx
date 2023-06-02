@@ -15,7 +15,7 @@ const RegistrationPage = () => {
     role: "User",
     password: "",
   });
-  const [cookie, setCookie, removeCookie] = useCookies<string>(["token"]);
+  const [cookie] = useCookies<string>(["token"]);
 
   const url = "http://localhost:5000/auth/register";
   const googleSignUpUrl = "http://localhost:5000/auth/google";
