@@ -1,0 +1,131 @@
+.kids-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  height: 90vh;
+  margin: 12rem 0 0 0;
+  /* margin-top: 1rem;
+  border: 1px solid red; */
+}
+
+.kids-card {
+  display: flex;
+  flex-direction: column;
+  width: 33vw;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 20rem;
+  margin-bottom: 1rem;
+  overflow: auto;
+  /* border: 1px solid red; */
+}
+
+.modalContent {
+  margin-top: 1rem;
+}
+
+.modal-card {
+  display: flex;
+  flex-direction: column;
+  width: 33vw;
+  /* justify-content: space-between; */
+  align-items: flex-start;
+  height: 100%;
+  padding-bottom: 1rem;
+}
+
+.kids-card img,
+.modal-card img {
+  width: 33vw;
+  height: 22vh;
+}
+
+.kids-card p {
+  color: #828282;
+  height: 2.5rem;
+  overflow: hidden;
+}
+
+.kids-card p strong {
+  display: none;
+}
+.modal-card h1 {
+  margin-bottom: 1rem;
+}
+.modal-card p,
+.modal-card h1 {
+  width: 100%;
+  padding: 0 0.5rem;
+  min-height: fit-content;
+}
+
+.modal-card p {
+  overflow: auto;
+  height: 15rem;
+}
+
+.kids-card button {
+  color: #eb5757;
+  background-color: inherit;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 90px;
+  height: 24px;
+}
+
+.kids-card button:hover {
+  cursor: pointer;
+}
+
+.parent {
+  margin-left: -17.5rem;
+  margin-top: -12rem;
+}
+
+.modalContainer {
+  width: fit-content;
+  height: 500px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.modal-button {
+  margin-bottom: 32%;
+  margin-right: 1rem;
+  border-radius: 50%;
+  color: #eb5757;
+  border: none;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+}
+
+.crudBtns {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0.5rem 0;
+}
+
+.crudBtn {
+  background-color: #eb5757;
+  border: none;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 4px;
+  color: #fff;
+}

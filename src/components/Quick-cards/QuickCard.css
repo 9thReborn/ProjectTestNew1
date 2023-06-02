@@ -1,0 +1,55 @@
+.card-list {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    /* position: relative; */
+    width: 80%;
+    margin-left: 19%;
+    /* transform: translateY(1.9rem);
+    -webkit-transform: translateY(1.9rem);
+    -moz-transform: translateY(1.9rem);
+    -ms-transform: translateY(1.9rem);
+    -o-transform: translateY(1.9rem); */
+    margin-bottom: 3rem;
+    margin-top: 8rem;
+    
+}
+
+  .emergencyP p {
+    font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+  }
+  
+.emergency{
+width: 260px;
+height: 144px;
+background: #fff;
+border-radius: 8px;
+display: flex;
+flex-direction: column;
+padding: 10px;
+justify-content: center;
+margin: 10px;
+background-color: white;
+  }
+
+.bg{
+    background-color: #EB5757;
+
+}
+
+.icon1,.icon2,.icon3{
+    width:40px;
+    height: 40px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FEEBEF;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+    

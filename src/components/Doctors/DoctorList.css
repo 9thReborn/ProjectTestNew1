@@ -1,0 +1,12 @@
+.doctor-table-header {
+  width: 50%;
+  background-color: #eb5757;
+  font-size: medium;
+}
+
+.tablegrid-container {
+  height: 50%;
+  width: 70%;
+  margin: 0 auto;
+  background-color: #fff;
+}

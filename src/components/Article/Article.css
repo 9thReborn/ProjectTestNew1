@@ -1,0 +1,124 @@
+.article-card {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  position: relative;
+  margin-left: 19%;
+  margin-top: -2rem;
+  height: 62vh;
+  overflow: auto;
+}
+
+.article-card1 {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 8px;
+  cursor: pointer;
+  height: 9rem;
+  overflow: hidden;
+}
+
+.article-icon1 {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.article-img {
+  width: 80%;
+  height: 80%;
+  border-radius: 0.5rem;
+}
+
+.allCards {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.article-card-h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  position: relative;
+  width: 179px;
+}
+
+.article-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  width: 23rem;
+  padding: 2rem 0;
+}
+
+.article-h3 {
+  margin-bottom: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.article-small-p {
+  height: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 5px;
+  color: #828282;
+}
+
+.article-large-p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  overflow: hidden;
+}
+
+.articleDisplay {
+  background-color: #fff;
+  width: 40rem;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 0.2rem;
+}
+
+.articleDisplay img {
+  height: 20rem;
+  width: 100%;
+  border-radius: 0.2rem;
+}
+.articleDisplay p {
+  overflow: auto;
+  margin-top: 1rem;
+  height: 20rem;
+}
+.articleDisplay h1 {
+  margin-top: 1rem;
+}
+
+.articleModal {
+  margin-left: -17.1rem;
+  margin-top: -19.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.articleBtn {
+  margin-top: -15rem;
+}
